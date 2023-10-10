@@ -1,0 +1,24 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+}
+
+.first-row {
+    grid-column: span 10;
+}
+
+.second-row {
+    grid-column: span 10;
+}
+
+.third-row {
+    grid-column: span 10;
+}
