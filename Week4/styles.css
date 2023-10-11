@@ -1,0 +1,55 @@
+h2 {
+    font-family: sans-serif;
+    font: weight 300px;
+    color:#cb8400;
+    margin-left: 35px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+input {
+    color: #000000;
+    background-color: #ffda95;
+    width: 250px;
+    height: 30px;
+    margin-left:5px;
+    margin-right:20px;
+    margin-top:40px;
+    margin-bottom:40px;
+    border-radius:20px;
+    flex-shrink: 0;
+    box-shadow: 0px;
+    border: 2px solid #cb8400;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(66, 66, 66);
+  background-color: #ffc14e;
+  padding: 1em 2em;
+  border: none;
+  border-radius: .6rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+button:hover {
+    background-color: #e7a62e;
+}
+
+.first-row {
+    grid-column: span 5;
+}
+
+.second-row {
+    grid-column: span 5;
+}
+
+.third-row {
+    grid-column: span 5;
+}
